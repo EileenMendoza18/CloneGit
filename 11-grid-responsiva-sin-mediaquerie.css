@@ -1,8 +1,32 @@
-@import url(style.css);
 
-.responsiva{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 4px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 100px;
+}
+.navegacion{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+
+.menuNavegacion{
+    display: flex;
+    gap: 8px;
+
 }
